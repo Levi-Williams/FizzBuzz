@@ -1,0 +1,11 @@
+public string FizzBuzz(int number) 
+{
+    if(number % 3 == 0 && number % 5 == 0) {return "fizzbuzz";}
+
+    if(number % 3 == 0) {return "fizz";}
+
+    if(number % 5 == 0) {return "buzz";}
+
+    return "Number is not divisible by either 3 or 5!"
+
+}
